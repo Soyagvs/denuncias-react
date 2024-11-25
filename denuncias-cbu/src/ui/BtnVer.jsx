@@ -85,23 +85,23 @@ export const BtnVer = () => {
 
             <div className="flex justify-around items-center mt-10">
               <div>
-                <h3>CBU :</h3>
-                <h3>N~DNI :</h3>
-                <h3>Nombres y apellidos :</h3>
+                <h3 className='underline decoration-blue-400 decoration-4'>CBU :</h3>
+                <h3 className='underline decoration-blue-400 decoration-4'>N~DNI :</h3>
+                <h3 className='underline decoration-blue-400 decoration-4'>Nombres y apellidos :</h3>
               </div>
               <div>
-                <h3>Provincia :</h3>
-                <h3>Localidad :</h3>
-                <h3>Posible direccion :</h3>
+                <h3 className='underline decoration-blue-400 decoration-4'>Provincia :</h3>
+                <h3 className='underline decoration-blue-400 decoration-4'>Localidad :</h3>
+                <h3 className='underline decoration-blue-400 decoration-4'>Posible direccion :</h3>
               </div>
             </div>
 
             <div className="mt-10 flex justify-center items-center">
-              <h3>Cantidad de denuncias :</h3>
+              <h3 className='underline decoration-red-400 decoration-4'>Cantidad de denuncias :</h3>
             </div>
 
             <div className="flex flex-col justify-center items-center mt-10">
-              <h2>Pruebas</h2>
+              <h2 className='text-xl'>Pruebas</h2>
               <div className="flex-wrap flex gap-10 justify-center items-center mt-5">
                 <div className="h-80 w-52 bg-gray-500"></div>
                 <div className="h-80 w-52 bg-gray-500"></div>
