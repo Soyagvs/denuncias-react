@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Box } from "../sections/Box";
 
+
 export const Home = () => {
   const [activeTab, setActiveTab] = useState("buscar"); // Estado que controla la pestaña activa
 
