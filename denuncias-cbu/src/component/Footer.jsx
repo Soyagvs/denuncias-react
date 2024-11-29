@@ -1,9 +1,9 @@
 
 export const Footer = () => {
     return (
-        <footer className="flex justify-between items-center max-w-[870px] mx-auto mt-2 border-t p-5 border-black">
+        <footer className="flex justify-between items-center max-w-[870px] mx-auto mt-2 border-t p-5 border-black ">
             <p className="text-base">Hecha con fines de no caer en estafas | 2024</p>
-            
+             
             <a href="https://www.instagram.com/soyagvs" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"

@@ -3,7 +3,7 @@ import { BtnHeroDenunciar } from "../ui/BtnHeroDenunciar"
 
 export const Hero = () => {
     return (
-        <main className="max-w-[807px] mx-auto h-[900px] flex max-md:flex-col">
+        <main className="max-w-[807px] mx-auto h-screen flex max-md:flex-col">
             <div className="flex flex-col gap-10">
                 <h1 className="md:text-8xl w-[508px] pt-36 leading-tight font-medium ">
                     <span className="uppercase bg-blue-500">Denuncia</span> a los <span className="uppercase underline decoration-red-500 decoration-[20px]">cbu</span>

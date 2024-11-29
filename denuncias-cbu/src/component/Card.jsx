@@ -1,4 +1,3 @@
-import { BtnDenunciar } from "../ui/BtnDenunciar"
 import { BtnVer } from "../ui/BtnVer"
 
 export const Card = () => {
@@ -10,7 +9,6 @@ export const Card = () => {
             </div>
             <div className="flex items-center gap-3 mr-3 ">
                 <BtnVer />
-                <BtnDenunciar />
             </div>
 
         </div>

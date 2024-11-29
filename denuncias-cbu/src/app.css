@@ -1,10 +1,4 @@
 html,
 body {
-  background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(254, 214, 165, 1) 0%,
-    rgba(152, 128, 99, 1) 100%
-  );
+  background-color: #989898;
 }
