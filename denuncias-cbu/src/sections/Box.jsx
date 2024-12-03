@@ -22,6 +22,7 @@ export const Box = ({ activeTab, setActiveTab }) => {
 
       <div className=" bg-white rounded-tr-lg rounded-br-lg rounded-bl-lg">
 
+
         <div className="h-16 flex justify-start items-center ml-6">
           {activeTab === "buscar" && <Search />}
         </div>
@@ -39,7 +40,7 @@ export const Box = ({ activeTab, setActiveTab }) => {
               <p>Las denuncias se hacen por medio de email, debes enviar el numero de cbu como asunto, y adjuntar pruebas de estafa con capturas en buena calidad para ser procesadas. Si el cbu ya esta denunciado podes de la misma forma adjuntar mas pruebas.</p>
               <a href="mailto:" className="mt-5 rounded-lg bg-red-500 w-48 h-8 flex justify-center items-center">
 
-                
+
                 Denunciar via Email
               </a>
               <p>Este proceso tarda 24 Hs.</p>
