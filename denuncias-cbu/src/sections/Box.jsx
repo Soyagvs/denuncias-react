@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 export const Box = ({ activeTab, setActiveTab }) => {
   return (
-    <section className="max-w-[936px] mt-7 rounded-lg">
+    <section className="max-w-[936px] mt-5 rounded-lg">
       <div className="flex justify-start items-center h-9">
         <button
           className={`uppercase w-[135px] h-9 flex justify-center items-center cursor-pointer ${activeTab === "buscar" ? "bg-white text-black rounded-tl-lg" : "bg-[#e6e6e6] rounded-tl-lg"}`}
