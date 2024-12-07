@@ -12,6 +12,7 @@ export const Home = () => {
   };
 
   return (
+    
     <main className="max-w-[870px] mx-auto">
       
       <div className="flex justify-start items-center text-red-500 font-semibold mt-7">
